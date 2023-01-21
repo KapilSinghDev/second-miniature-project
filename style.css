@@ -1,0 +1,250 @@
+::placeholder{
+    color: rgb(186, 198, 255);
+    font-size: larger;
+}
+.bdy{
+    background-color: black;
+    border-left: 2.5px solid rgb(186, 198, 255);
+    border-right: 2.5px solid rgb(186, 198, 255);
+    border-top: 5px solid rgb(186, 198, 255);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bar1{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    border-bottom: 1px solid rgb(151, 168, 255);;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    gap: 1rem;
+    margin-top: 8px;
+}
+.logo{
+    color: rgb(81, 220, 255);
+    font-size:28px ;
+}
+nav ul li a{
+    color:rgb(229, 255, 0);
+    text-decoration: none;
+    font-weight: bold;
+    border:2px solid yellow;
+    padding:2px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    color:rgb(255, 0, 0);
+    transition: 0.7s;
+}
+.firstpic{
+    background-position: center;
+    background-size: cover;
+    width: 99.9%;
+    height: 450px;
+    margin-bottom: 41px;
+    
+}
+.recipieSegment{
+    background-color: rgb(31, 26, 26);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+    position: relative;
+}
+.headernames{
+    height: 65px;
+    width: 17%;
+    background-color: rgb(64, 64, 64);
+    position: absolute;
+    margin-left: 7%;
+}
+.midheader{
+    height: 65px;
+    width: 10%;
+    background-color:  rgb(29, 29, 29);
+    position: absolute;
+    margin-left: 0%;
+}
+.rightheader{
+    height: 65px;
+    width: 17%;
+    background-color: rgb(64, 64, 64);
+    position: absolute;
+    margin-left: 0%;
+}
+.head2{
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Cursive;
+    text-align: center;
+    color: rgb(1, 1, 1);
+    background-color: rgba(146, 145, 145, 0.474);
+}
+.breakfast{
+    background-color: rgb(64, 64, 64);
+    width:33%;
+    height: 450px;
+    border: 2px solid rgb(81, 220, 255);;
+    border-radius: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+.lunch{
+    background-color:  rgb(29, 29, 29);
+    width:34%;
+    height: 450px;
+    border: 2px solid rgb(81, 220, 255);;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.dinner{
+    background-color:rgb(64, 64, 64);
+    width:33%;
+    height: 450px;
+    border: 2px solid rgb(81, 220, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.secHead{
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+    color:rgb(255, 221, 221);
+    /* border: 1px solid rgb(255, 221, 221);
+    border-width: 5px;
+    padding-top: 5px ; */
+}
+.abouts{
+    background-color: black;
+    height: 150px;
+
+}
+.abt{
+    color: antiquewhite;
+    font-size: 25px;
+}
+.addRecipie{
+    /* background-color: rgb(29, 29, 29); */
+    width: 100%;
+    /* height: 350px; */
+    /* border: 2px solid rgba(255, 4, 0, 0.932); */
+    border-radius: 15px;
+    margin-bottom: 0px;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+
+.addRecipie2{
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 500px;
+    border: 2px solid rgb(81, 220, 255);;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.kr{
+    text-align: center;
+    color: aqua;
+    font-size: large;
+}
+.inputbtn{
+    margin-top: 60px;
+    color: #00ffd5dd;
+    background-color: #4d4f4f;
+    border: 2px;
+    border-radius: 10px;
+    width: 100px;
+    border: 1px solid rgba(62, 179, 238, 0.867);
+}
+.buttonsection{
+    margin-top: 9px;
+    /* background-color: #242626; */
+    height: 350px;
+    width: 100px;
+    border-radius: 5px;
+}
+.endSection{
+    margin-top: 650px;
+    background-color:  rgb(64, 64, 64);
+    border: 2px solid rgb(81, 220, 255);;
+    height: 150px;
+    border-radius: 15px;
+    
+}
+.smallbox{
+    color: rgb(249, 214, 214);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.userSection{
+    width:82%;
+    background-color: aliceblue;
+    height: 370px;
+    position: absolute;
+    background-color:  rgb(64, 64, 64);
+    /* margin: auto; */
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    border-radius: 15px;
+    
+}
+.aboutOne{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+}
+.recipiemaker{
+    background-color:rgb(64, 64, 64);
+    color: white;
+}
+.text-box{
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 98%;
+    background-color: rgba(83, 83, 83, 0.959);
+    color: rgb(186, 198, 255);
+}
+.descp{
+    color: rgb(174, 217, 255);
+    font-size: large;
+}
+.lroutput{
+    height: 350px;
+    width: 490px;
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 50px;
+    margin-top: 75px;
+    border-radius: 10%;
+    margin-left: 2.2%;
+}
+.midoutput{
+    background-color: rgb(64, 64, 64);;
+    height: 350px;
+    width: 490px;
+    padding-bottom: 50px;
+    margin-top: 85px;
+    border-radius: 10%
+}

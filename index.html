@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class = "bdy">
+    <div class = "mainbar">
+    <nav class="bar1">
+      <h2 class="logo"><u>Nourish & Co.</u></h2>
+        <ul>
+            <li><a href = " ">Home</a></li>
+            <li><a href = " ">Recipies</a></li>
+            <li><a href = " ">Add Recipie</a></li>
+            <li><a href = " ">About</a></li>
+            <li><a href = "">Login</a></li>
+        </ul>
+    </nav> 
+    </div>  
+    <div class = "segement1" >
+        <img  class = "firstpic"src = "./picfolder/snipshot.png">
+    </div>
+    <h2 class = "head2">Recipes</h2>
+    <div class = "recipieSegment">
+        <div class = "breakfast">
+            <div class = "headernames">
+                <h3 class = "secHead"><u>Breakfast</u></h3>
+            </div> 
+            <div class = "lroutput">
+                <p class = "kr" id = "p1"></p>
+            </div>
+        </div>
+        <div class = "lunch">
+            <div class = "midheader">
+                <h3 class = "secHead"><u>Lunch</u></h3>
+            </div>
+            <div class = "midoutput">
+                <p class = "kr" id = "p2"></p>
+            </div>
+        </div>
+        <div class = "dinner">
+            <div class = "rightheader">
+                <h3 class = "secHead"><u>Dinner</u></h3>
+            </div>
+            <div class = "lroutput">
+                <p class = "kr" id = "p3"></p>
+            </div>
+        </div>
+    </div>
+    <div class = "addRecipie2">
+        <div class="addRecipie">
+            <h3 class = secHead><u>Share Your Recipie</u></h3>
+        </div>
+        
+        <div class = "userSection">
+            <form>
+                <textarea id="tb" cols="135" rows="4" class="text-box" style="height: 350px;" placeholder= "Type your recipie here..."></textarea>
+            </form>
+            <div class = "buttonsection">
+                <button class = "inputbtn" id="b1" onclick="addToBreakfast()">Breakfast</button>
+                <button class = "inputbtn" id="b2" onclick="addToLunch()"> Lunch </button>
+                <button class = "inputbtn" id="b3" onclick="addToDinner()">Dinner</button>
+            </div>
+        </div>
+    </div>
+    <div class="endSection">
+
+        <footer >
+            <div class="smallbox">
+                <h3 class = "aboutOne">About</h3>
+            </div>
+            <p class = "descp">
+               <u>Nourish & Co</u> tech company is a business that uses technology to improve and innovate in the food industry. We include developing new food products, improving food production processes, creating software for the food industry, and using data analysis to optimize supply chain and distribution. Our products include companies that produce plant-based meat alternatives, companies that use precision agriculture to grow food more efficiently, and companies that create software to help restaurants and grocery stores manage inventory and optimize pricing.
+            </p>
+        </footer>
+    </div>
+    <script src = "scritp.js"></script>
+    <!-- <link href = "scritp.js"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+</body>
+</html>
